@@ -4,18 +4,19 @@
 
 }
 #ContainerProBlock{
+    margin-left: 20px;
     width: 100%;
     display: inline;
 }
 #containerCertP{
-    width: 370px;
-    height: 300px;
-    margin: 0 20px 30px 0;
+    border: solid rgb(144, 242, 255) 4px;
+    width: 320px;
+    height: 420px;
+    margin: 30px 30px 30px 0;
     position: relative;
     display: inline-block;
     text-align: center;
     background-size:cover;
-    background-position:center;
     background-repeat:no-repeat;
 
 }
@@ -33,7 +34,7 @@
 }
 
 #shadowP:hover #paragraphProyects{
-    display: flex;
+    display: block;
     position: absolute;
     padding: 90px 30px 30px 30px;
     justify-content: center;

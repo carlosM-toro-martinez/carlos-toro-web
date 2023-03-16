@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.2799e1fd.css",
-    "main.js": "/static/js/main.819d8f4c.js",
+    "main.css": "/static/css/main.6a373d0b.css",
+    "main.js": "/static/js/main.af33928e.js",
+    "static/media/arcane.png": "/static/media/arcane.ac498b484a39d3ef4bc9.png",
     "static/media/certificate1.png": "/static/media/certificate1.2148b31740700e47aeb0.png",
+    "static/media/encuentra.jpg": "/static/media/encuentra.f70653bfa1267dff393d.jpg",
     "static/media/background.jpg": "/static/media/background.42de1f48cb0403fe606a.jpg",
     "static/media/certificate5.png": "/static/media/certificate5.2ab62b029d80dfb4f72f.png",
     "static/media/mern.png": "/static/media/mern.39d4f78651cc4a93b96f.png",
+    "static/media/carlosWeb.jpg": "/static/media/carlosWeb.a8d3bf8175eacc7a135f.jpg",
     "static/media/certificate4.png": "/static/media/certificate4.3e3d5669a2191edaa610.png",
     "static/media/certificate3.png": "/static/media/certificate3.76c64bdd51650549c4cf.png",
     "static/media/certificate2.png": "/static/media/certificate2.5a4076872679f87ce3db.png",
     "static/media/js.png": "/static/media/js.fd668b084a25f663bf42.png",
+    "static/media/continentes.png": "/static/media/continentes.01ba09192101fc331649.png",
     "static/media/css.png": "/static/media/css.8a182087615a3845ebac.png",
     "static/media/carlos.jpg": "/static/media/carlos.1afc022c5334c3ecb645.jpg",
     "static/media/html.png": "/static/media/html.c7c84f520aa5377c7387.png",
     "index.html": "/index.html",
-    "main.2799e1fd.css.map": "/static/css/main.2799e1fd.css.map",
-    "main.819d8f4c.js.map": "/static/js/main.819d8f4c.js.map"
+    "main.6a373d0b.css.map": "/static/css/main.6a373d0b.css.map",
+    "main.af33928e.js.map": "/static/js/main.af33928e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2799e1fd.css",
-    "static/js/main.819d8f4c.js"
+    "static/css/main.6a373d0b.css",
+    "static/js/main.af33928e.js"
   ]
 }
