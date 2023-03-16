@@ -11,6 +11,6 @@ app.get("/*", (req, res) => {
   res.sendFile(path.join(__dirname, "./client/build", "index.html"));
 });
 
-app.listen(80, () => {
-  console.log("server in http://localhost:80");
+app.listen(8080, () => {
+  console.log("server in http://localhost:8080");
 });
