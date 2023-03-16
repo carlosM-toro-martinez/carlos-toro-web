@@ -1,0 +1,46 @@
+#containerPro{
+    display: flex;
+    justify-items: center;
+
+}
+#ContainerProBlock{
+    width: 100%;
+    display: inline;
+}
+#containerCertP{
+    width: 370px;
+    height: 300px;
+    margin: 0 20px 30px 0;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+}
+#paragraphProyects{
+    display: none;
+
+}
+
+#shadowP{
+    height: 100%;
+}
+
+#shadowP:hover{
+    background-color: rgb(0,0,0,0.7);
+}
+
+#shadowP:hover #paragraphProyects{
+    display: flex;
+    position: absolute;
+    padding: 90px 30px 30px 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    word-wrap: break-word ;
+}
+

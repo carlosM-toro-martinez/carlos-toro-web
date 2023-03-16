@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.containerTilte{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+.containerLinks{
+    display: flex;
+    justify-content: center;
+}
+#linkB{
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    text-decoration: none;
+    margin: 15px;
+    margin-bottom: 30px;
+
+}
+#paragraph{
+    color: rgb(255, 255, 255);
+    margin-top: -20px
+}
+
+#linkB:hover{
+    color: rgb(20, 81, 247);
+    cursor: pointer;
+
+}
+
+#containerFormCl{
+    justify-content: center;
+    padding: 10px;
+}
+.formCl{
+    width: 50%;
+}
+.textColorW{
+    color: white;
+}

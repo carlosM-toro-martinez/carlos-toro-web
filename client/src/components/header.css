@@ -1,0 +1,22 @@
+.linkButtons{
+    margin: 10px;
+}
+
+.linkButtons:hover{
+    font-weight: bold;
+}
+
+.linkButtons::after{
+    content: '';
+    width: 0%;
+    height: 7px;
+    margin-top: 4px;
+    background-color: white;
+    display: block;
+    color: white;
+    transition: all 450ms;
+}
+
+.linkButtons:hover::after{
+    width: 100%;
+}

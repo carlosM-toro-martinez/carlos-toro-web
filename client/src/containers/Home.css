@@ -1,0 +1,95 @@
+hr{
+  width: 100%;
+  background-color: white;
+  color: white;
+  height: 7px;
+  animation-duration: 3s;
+  animation-name: line;
+}
+
+@keyframes line {
+    from {
+        width: 50%;
+    }
+    to {
+        width: 100%;
+
+    }
+}
+
+.containerHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.textContainer{
+    flex: 0.7;
+    padding: 20px;
+}
+
+.text{
+    color: white;
+    font-size: 30px;
+    animation-duration: 2s;
+    animation-name: textAnimation;
+}
+
+@keyframes textAnimation {
+    from {
+        padding-top: 100%;
+    }
+    to {
+        padding-top: 0%;
+    }
+}
+
+.prueba{
+    flex: 0.3;
+    margin-left: 30px;
+}
+
+.webLogos{
+    background-image: url('../public/mern.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%   {background-image: url('../public/mern.png'); left:300px; top:100px; height: 150px; width: 150px;}
+    80% {background-image: url('../public/html.png'); left:200px;  top:0px;}
+    20%  {background-image: url('../public/css.png'); left:400px; top:0px;}
+    40%  {background-image: url('../public/js.png'); left:400px; top:200px;}
+    60%  {background-image: url('../public/git.png'); left:200px; top:200px;}
+    100%   {background-image: url('../public/mern.png'); left:300px; top:100px; height: 150px; width: 150px;}
+
+  }
+  .containerCert{
+    display: flex;
+    justify-content: center;
+  }
+
+  .imagesContainer{
+    display: inline-block;
+    margin-left: 5%;
+  }
+
+  .imageCert{
+    background-color: rgb(255, 255, 255, 1);
+    height: 270px;
+    width: 320c px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+
+  @media screen and (max-width: 700px) {
+    .containerHome{
+        display: flex;
+        flex-direction: column;
+    }
+}
